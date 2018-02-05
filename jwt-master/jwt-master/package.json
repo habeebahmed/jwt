@@ -1,0 +1,26 @@
+{
+  "name": "node-token-authentication-jwt",
+  "version": "1.0.0",
+  "description": "for authenticating and provinding access token",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunshinecrazy/jwt.git"
+  },
+  "author": "hm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunshinecrazy/jwt/issues"
+  },
+  "homepage": "https://github.com/sunshinecrazy/jwt#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^5.0.1",
+    "morgan": "^1.9.0"
+  }
+}
